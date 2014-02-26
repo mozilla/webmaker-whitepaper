@@ -12,7 +12,7 @@
 
 ### Develop
 
-	npm startdev
+	node server 1111 ./ true
 
 then visit <http://localhost:1111/>
 

@@ -4,8 +4,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"postinstall" : "bower install && cd ./bower_components/makerstrap && bower install",
-		"start": "node server 1111",
-		"startdev": "node server 1111 ./ true"
+		"start": "node server 1111"
 	},
 	"devDependencies": {
 		"mime": "~1.2.11",
