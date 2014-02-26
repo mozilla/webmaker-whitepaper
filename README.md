@@ -3,6 +3,7 @@
 ## Installation
 
 	git clone https://github.com/fuzzyfox/webmaker-whitepaper --depth 1
+	cd webmaker-whitepaper
 	npm install -g grunt-cli
 	npm install
 
