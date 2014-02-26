@@ -1,0 +1,42 @@
+@bower-path: './bower_components';
+
+@import '@{bower-path}/makerstrap/less/makerstrap.complete.less';
+
+body {
+	background-color: @brand-primary;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-image: url('http://reports.p2pu.org/reports/assessment_on_the_web/part_1/img/internet_map_half.jpg');
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	text-align: center;
+	background: transparent;
+
+	.title {
+		background: fade(@brand-primary, 60%);
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+
+.sub-jumbotron {
+	text-align: center;
+	background: @grey;
+	color: @white;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-top: 0;
+
+	h2, h3 {
+		font-weight: 300;
+	} 
+}
+
+main {
+	padding-bottom: 3rem;
+	background: @white;
+}

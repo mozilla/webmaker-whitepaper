@@ -1,0 +1,18 @@
+{
+	"name": "webmaker-whitepaper",
+	"author": "William Duyck <wduyck@mozillafoundation.org>",
+	"version": "0.0.1",
+	"scripts": {
+		"postinstall" : "bower install && cd ./bower_components/makerstrap && bower install",
+		"start": "node server 1111",
+		"startdev": "node server 1111 ./ true"
+	},
+	"devDependencies": {
+		"mime": "~1.2.11",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt": "~0.4.2",
+		"grunt-contrib-less": "~0.9.0",
+		"colors": "~0.6.2",
+		"grunt-autoprefixer": "~0.7.1"
+	}
+}
