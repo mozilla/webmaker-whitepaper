@@ -1,54 +1,61 @@
-module.exports = function(grunt) {
-	grunt.initConfig({
-		// running `grunt less` will compile once
-		less: {
-			development: {
-				options: {
-					paths: ["asset/css"]
-				},
-				files: {
-					"asset/css/style.css": "asset/less/style.less",
-				}
-			},
-			production: {
-				options: {
-					paths: ["asset/css"],
-					compress: true,
-					sourceMap: true
-				},
-				files: {
-					"asset/css/style.css": "asset/less/style.less",
-				}
-			}
-		},
-		autoprefixer: {
-			development: {
-				browsers: ['last 2 versions'],
-				expand: true,
-				flatten: true,
-				src: "asset/css/*.css",
-				dest: "./asset/css"
-			},
-			production: {
-				browsers: ['last 2 versions'],
-				expand: true,
-				flatten: true,
-				map: true,
-				src: "asset/css/*.css",
-				dest: "asset/css"
-			}
-		},
-		// running `grunt watch` will watch for changes
-		watch: {
-			less: {
-				files: "asset/less/*.less",
-				tasks: ["less"]
-			}
-		}
-	});
-	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-autoprefixer');
-	grunt.registerTask('default', ['less:development', 'autoprefixer:development']);
-	grunt.registerTask('build', ['less:production', 'autoprefixer:production']);
+module.exports = function( grunt ) {
+  'use strict';
+
+  grunt.initConfig({
+    pkg: grunt.file.readJSON( 'package.json' ),
+    less: {
+      development: {
+        options: {
+          paths: [ 'assets/css' ],
+          compress: true,
+          sourceMap: true,
+          sourceMapBasepath: '/',
+          sourceMapRootpath: '/'
+        },
+        files: {
+          'assets/css/style.css': 'assets/less/style.less'
+        }
+      },
+      dist: {
+        options: {
+          paths: [ 'assets/css' ],
+          compress: true
+        },
+        files: {
+          'assets/css/style.css': 'assets/less/style.less'
+        }
+      }
+    },
+    autoprefixer: {
+      main: {
+        browsers: [ 'last 2 versions' ],
+        expand: true,
+        flatten: true,
+        map: true,
+        src: 'assets/css/*.css',
+        dest: 'assets/css'
+      }
+    },
+    // running `grunt watch` will watch for changes
+    watch: {
+      files: [ 'assets/less/*.less' ],
+      tasks: [ 'less:development', 'autoprefixer' ]
+    },
+    connect: {
+      server: {
+        options: {
+          port: 1111,
+          useAvailablePort: true
+        }
+      }
+    }
+  });
+
+  grunt.loadNpmTasks( 'grunt-contrib-less' );
+  grunt.loadNpmTasks( 'grunt-contrib-connect' );
+  grunt.loadNpmTasks( 'grunt-autoprefixer' );
+  grunt.loadNpmTasks( 'grunt-contrib-watch' );
+
+  grunt.registerTask( 'default', [ 'less:development', 'autoprefixer', 'connect', 'watch' ] );
+  grunt.registerTask( 'build', [ 'less:dist', 'autoprefixer' ] );
 };
