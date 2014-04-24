@@ -6,9 +6,9 @@ body {
 	background-color: @brand-primary;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: top center;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url('http://reports.p2pu.org/reports/assessment_on_the_web/part_1/img/internet_map_half.jpg');
+	background-image: url('https://webmaker.org/img/front-page/india-story.jpg');
 }
 
 .jumbotron {
@@ -30,6 +30,7 @@ body {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	margin-top: 0;
+	font-size: 1.2em;
 
 	h2, h3 {
 		font-weight: 300;
@@ -39,4 +40,106 @@ body {
 main {
 	padding-bottom: 3rem;
 	background: @white;
+}
+
+// know more, do more, do better hexagons
+.hexagon {
+	margin-top: 0.24em;
+	margin-bottom: 0.24em;
+	width: 176px;
+	height: 100px;
+	background-color: #000;
+	border-color: #000; /* must match background color */
+	position: relative;
+	display: inline-block;
+	perspective: 1000;
+	cursor: default;
+
+	&:before {
+		content: '';
+		width: 0; height: 0;
+		border-bottom: 0.25em solid;
+		border-color: inherit;
+		border-left: 0.44em solid transparent;
+		border-right: 0.44em solid transparent;
+		position: absolute;
+		top: -0.25em;
+		left: 0;
+	}
+
+	&:after {
+		content: '';
+		width: 0;
+		position: absolute;
+		bottom: -0.25em;
+		left: 0;
+		border-top: 0.25em solid;
+		border-color: inherit;
+		border-left: 0.44em solid transparent;
+		border-right: 0.44em solid transparent;
+	}
+
+	.content {
+		font-size: @font-size-base;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 176px;
+		height: 100px;
+	}
+
+	// flipping hexagons!
+	.flipper {
+		transition: 0.7s;
+		transform-style: preserve-3d;
+		position: relative;
+		height: 100%;
+	}
+
+	&:hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+	.content {
+		backface-visibility: hidden;
+
+		&.back {
+			transform: rotateY(180deg);
+		}
+	}
+
+	// colors!
+	@hex-blue: #0E79C8;
+	@hex-white: @lightgrey;
+	@hex-yellow: #D6EC09;
+	&.white {
+		background: @hex-white;
+		border-color: @hex-white;
+		color: @hex-blue;
+
+		.content {
+			background: @hex-white;
+		}
+	}
+
+	&.blue {
+		background: @hex-blue;
+		border-color: @hex-blue;
+		color: @hex-yellow;
+
+		.content {
+			background: @hex-blue;
+		}
+	}
+
+	&.yellow {
+		background: @hex-yellow;
+		border-color: @hex-yellow;
+		color: white;
+
+		.content {
+			background: @hex-yellow;
+		}
+	}
 }
