@@ -22,8 +22,15 @@ module.exports = function( grunt ) {
           compress: true
         },
         files: {
-          'assets/css/style.css': 'assets/less/style.less'
+          'dist/css/style.css': 'assets/less/style.less'
         }
+      }
+    },
+    copy: {
+      dist: {
+        files: [
+          {expand: true, src: ['assets/img/**'], dest: 'dist/img/'}
+        ]
       }
     },
     autoprefixer: {
@@ -55,7 +62,8 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks( 'grunt-contrib-connect' );
   grunt.loadNpmTasks( 'grunt-autoprefixer' );
   grunt.loadNpmTasks( 'grunt-contrib-watch' );
+  grunt.loadNpmTasks( 'grunt-contrib-copy' );
 
   grunt.registerTask( 'default', [ 'less:development', 'autoprefixer', 'connect', 'watch' ] );
-  grunt.registerTask( 'build', [ 'less:dist', 'autoprefixer' ] );
+  grunt.registerTask( 'build', [ 'less:dist', 'copy:dist', 'autoprefixer' ] );
 };
