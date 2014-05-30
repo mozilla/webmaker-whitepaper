@@ -4,7 +4,7 @@
   "version": "0.0.4",
   "private": true,
   "dependencies": {
-    "makerstrap": "~0.0.3"
+    "makerstrap": "mozilla/makerstrap#~0.1.8"
   },
   "ignore": [
     "node_modules/",

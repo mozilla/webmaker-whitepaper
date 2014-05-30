@@ -1,0 +1,185 @@
+__NOTOC__
+
+=Why Mozilla cares about Web Literacy=
+
+==Introduction==
+<blockquote>“[O]ur world changed in April 1993 when the Mosaic 1.0 browser was released to the general public. We need new forms of education. We need to reform our learning institutions, concepts, and modes of assessment for our age. Now, anyone with access to the World Wide Web can go far beyond the passive consumer model to contribute content on the Web. We can customize and remix, alone or in collaboration with others, located anywhere on the Web. That Do-It-Yourself potential for connected, participatory, improvisational learning requires new skills, what many are calling new “literacies”.”</blockquote>
+<p align="right">(Davidson, 2012)</p>
+
+Founded in 1998, Mozilla is a global community of technologists, teachers and makers working together to keep the Internet[1] open, accessible and editable. We collaborate on a global basis to ensure everyone can be informed contributors and creators of the web. This act of human collaboration across an open platform we believe to be essential to individual growth and our collective future.
+
+Mozilla helps people develop web literacy: we help them build, not just consume, the technology, media and information that makes up the web. Whether through the thousands of volunteers who write code for Firefox or the growing community that is designing courses for teaching the web, Mozilla strives for an Internet that is:
+
+* '''Knowable:''' it’s transparent–we can see it and understand it
+* '''Interoperable:''' it presents opportunity to play and innovate
+* '''Ours:''' it’s open to everyone and we define it
+
+The development of Mozilla products relies upon community involvement and contribution. We are part of a broader alliance of organizations including, for example, foundations like the [https://www.eff.org/ Electronic Frontier Foundation], the [http://www.macfound.org/ MacArthur Foundation], [http://www.sloan.org/ Sloan Foundation], and [http://www.knightfoundation.org/ Knight Foundation]. In addition, we work with [http://hivelearningnetwork.org/ Hive Learning Network] members such as libraries, museums, and non-profits. Mozilla also works on a number of levels to keep the web as an open platform for innovation.
+
+==The Problem==
+Since the mid-1990s more and more products, services and scenes from everyday life have moved online. This has led to many benefits, such as personal and business interactions being augmented and improved web-based communication. However, the Open Web that Mozilla believes in so strongly is now under attack from a variety of forces.
+
+One of these forces is the tendency of commercial providers towards ''silos''. In contrast, Mozilla believes that '''the web is the platform'''. By this we mean that, through adherence to open standards and protocols, people and organizations can work together to interact, exchange and trade using a shared platform. Closed, proprietary platforms are silos that limit user choice.
+
+<div style="background:#eee; border:#333 1px solid; padding:10px;">
+===How Mozilla fights silos===
+* On the web browser level through [https://www.mozilla.org/en-US/firefox Firefox]. Users now have a choice between major web browsers - all compatible with open standards.
+* On the mobile operating system level with [http://www.mozilla.org/en-US/firefox/os/ FirefoxOS]. Instead of closed ‘app stores’, users can download and create web apps from anywhere on the web.
+*On the wider ecosystem level by developing new, open technologies and protocols that are then used by other providers. Examples of this include [http://en.wikipedia.org/wiki/Do_Not_Track Do Not Track] and [http://en.wikipedia.org/wiki/WebGL WebGL].
+</div>
+
+
+Another force attacking the Open Web is that of ''elegant consumption''. Well-designed interfaces that delight and surprise us are to be encouraged, but when they are locked down, when there is no way to ‘view source’, then we become trapped as mere consumers of other people’s content. This has repercussions not only for accessibility and localization, but for our very freedom on the web.
+
+Many people use the web comfortably and intuitively on a daily basis for both work and leisure. Doing so, nevertheless, requires an understanding of how to both read and edit the web. Just as with traditional literacy, this ‘web literacy’ is something that people can get better at over time. The problem is that there has never been consensus around what constitutes ‘web literacy’. Just what is it that people should be getting better at to avoid being stuck in the trap of elegant consumption?
+
+==Web Literacy==
+Mozilla understands web literacy to be the skills and competencies required to read, write and participate effectively on the web. One of the problems with attempting to teach and learn web literacy has been the lack of an agreed ‘map of the territory’ from which to build resources and curricula. Other candidate terms such as ‘digital literacy’ and  ‘information literacy’ seem too wide-ranging and ambiguous to adequately cover the web.[2] Possible alternatives such as ‘media literacy’ and ‘computational thinking’ certainly ''overlap'' with web literacy, but there is something sufficiently unique about ‘web literacy’ to be worth of attention.
+
+There have been recent arguments within the world of educational technology and beyond for teaching everyone to ‘code’. While Mozilla believes this to be important, it is only one part of a wider set of skills and competencies that are required to live and work on the web. In order to underpin Mozilla’s work, and to provide a map of the territory for others to use, we have worked with the community to create a [https://webmaker.org/literacy Web Literacy Map]:
+
+[[Image:WebLiteracyMap-v1.1.png|640px |link=https://wiki.mozilla.org/Webmaker/WebLiteracyMap/ |alt=Mozilla Web Literacy Map competency grid|Click to find out more about the Web LiteracyMap]]
+
+The Web Literacy Map was created in consultation with a community of stakeholders from formal and informal education, as well as industry. The above images shows the competency grid. Under each competency there are a subset of skills that Mozilla and the community believe it is important to develop. For example, ‘Taking steps to secure non-encrypted connections’ sits as one of five skills that underpin the ‘Privacy’ competency.
+
+This is a ''descriptive'' rather than prescriptive map. That is to say people and organizations can align with it no matter what context they are working in - and no matter what level they are working at. The Web Literacy Map will evolve and mature along with the web itself, and in consultation with a growing community of stakeholders.
+
+One specific way in which Mozilla is using the Web Literacy Map is to inform our Webmaker project. This consists of the tools, resources and community necessary for mentors to teach the web.
+
+==Mozilla Webmaker==
+Mozilla’s work is underpinned by a philosophy that we learn best through doing and making. While our thinking is influenced and informed by the works of academics in related fields, we’re interested in practical action. We're focused on helping people become more sophisticated in writing the web, participating in communities that explore web literacy and become advocates for the value and need for an [http://en.wikipedia.org/wiki/Open_Web open web].
+
+Learning by making is not a new idea. This concept is fundamental to the work of foundational thinkers such as Froebel, Dewey, and Papert (amongst many others). For example, Froebel encouraged creative play using wooden blocks as a pedagogical tool; Dewey advocated for experiential learning; and Papert updated ideas around ‘hands-on’ learning for the computer age. Learning theories such as [http://en.wikipedia.org/wiki/Constructivism_(learning_theory) Constructivism] and [http://en.wikipedia.org/wiki/Connectivism Connectivism] influence our work around Webmaker and web literacy — along with, importantly, a sense of play.
+
+There are many communities that are interested in playful making as learning approaches, where learners don’t just consume, they produce.  Maker culture is an extension of do-it-yourself (DIY) culture focused on the creative use of technology coupled with a strong ethos around grassroots invention and learning.  Examples where making and production is common as a part of learning include the  MIT’s Scratch game making community and Arduino enthusiasts who create with open source electronics prototyping hardware.  Mozilla’s work is situated within this landscape of maker culture with an explicit commitment to the open web. Central to this is a culture of ‘tinkering’; the [http://archive.makezine.com/04/ownyourown/ Maker Manifesto] states: “if you can’t open it, you don’t own it.” Many makers are amateurs — enthusiasts and hobbyists interested in the process as well as the product. An interest in building and supporting the open web is core to many Mozilla projects, including Webmaker.
+
+We understand ‘webmakers’ to be those participating in the culture of building the social and technical elements required for an open web. At the same time, we use ‘Webmaker’ to refer to the Mozilla website as well as the community that has mobilized in alignment with it.  We recognize that there are also an array of webmaker practices which occur with and without Mozilla. Therefore, webmakers may complete various activities, including building content for the web through remix or coding, participating in discussions online, or teaching web literacy skills in their local communities. The profiles below are just a few examples of how some individuals use Webmaker and other resources in different contexts:
+
+* [http://www.amyburvall.com/ Amy] is an educator and lyricist/performer in Hawaii, USA. She uses Webmaker tools to [https://amyburvall.makes.org/popcorn/1fwa teach remix culture] and community participation to her students, who participate in, and contribute to, the open web.
+* [http://www.mozraj.com/ Gauthamraj] is a mentor of mentors in Erode, India. He went from teaching some web basics to his family, to mentoring someone 1:1, to bringing a whole cohort of new mentors into the Mozilla Webmaker community.
+* [http://about.me/fayetandog Faye] is an industrial engineering graduate from the Philippines. She ran Maker Parties for her fellow students to teach web literacy skills while at university and has continued to do so. Some of her Maker Party events have focused on [https://reps.mozilla.org/e/womoz-2013-maker-party/ women and girls] in technology.
+* [http://socialinnovation.ca/community/members/andy-forest Andy] co-founded a makerspace for kids in Toronto, which is a member of Hive Toronto, a digital literacy network stewarded by Mozilla.  Andy teaches skills like 3D printing, electronics and webmaking while wearing a funky red lab coat.
+
+===Webmaker Tools===
+Mozilla collaborates with many makers, mentors and educators around the world.  The idea to create tools to encourage webmaking stems back to the [http://learningfreedomandtheweb.org/ Mozilla Drumbeat Festival], held in Barcelona in 2010.  This event demonstrates many of the cultural and civic aspects of participating in building the open web.  Since the Drumbeat Festival, Mozilla has continually iterated upon the ideas originated there to create a suite of Webmaker tools to help improve users’ web literacy skills. [https://webmaker.org/ Webmaker.org] currently houses three tools: X-Ray Goggles, Thimble, and Popcorn Maker (with a fourth tool Appmaker, close to integration, and more proposed for the future). Each of these open source tools is used within a web browser and end-users can publish their completed projects to Mozilla servers. Because the tools are open source, community members can contribute to their development and ‘fork’ them for their own purposes if necessary.
+
+====X-Ray Goggles====
+https://goggles.webmaker.org
+
+X-Ray Goggles (or Goggles) is a browser plug-in that allows an end-user to see the building blocks of the web. It shows the underlying HyperText Markup Language (HTML) and Cascading Style Sheets (CSS) of the web page being visited. With Goggles, users can change the code and publish their version of the page. As an example, when Goggles is activated a user can change the headline of the site if it is contained in "heading 1" or an " <nowiki><h1></nowiki>" set of HTML tags. Popular X-Ray Goggles projects for new users include remixing the homepage of a newspaper or school.
+
+====Thimble====
+https://thimble.webmaker.org
+
+Thimble is an HTML editor and preview pane, which displays in a single browser window. To the end-user, the code appears in the left pane, and the preview of the page of the rendered web page in the right. Thimble excels at allowing users to create a new webpage or alter a one page project. Popular Thimble projects at Webmaker for new users include remixing an internet meme, a magazine cover, or comic strip. Projects from Thimble can be published to Mozilla servers and shared.
+
+====Popcorn Maker====
+https://popcorn.webmaker.org
+
+Popcorn is a multimedia editor that works out of a browser window. Popcorn was created to be an HTML5 media framework, to demonstrate that the web is interoperable and media elements can be recombined. Within Popcorn, the user sees a timeline where they can add video clips, sound files, images, animated Graphics Interchange Format (GIF) files, Wikipedia pages, Google maps and more. These can be combined to remix and add commentary to existing media. Common first projects in Popcorn include a video to introduce oneself or to tell a story.
+
+====Appmaker====
+https://appmaker.mozillalabs.com/
+
+Appmaker is an easy-to-use mobile app creator. Based on burgeoning open web technology, Appmaker allows end-users to snap together mobile apps with lego-like bricks of functionality. Since the Appmaker ecosystem is built for the web, Appmaker apps work anywhere the web does — including the smartphone in your pocket! While it is possible to publish, share, and use Appmaker apps, the product is still at an experimental stage and not yet integrated into Webmaker.
+
+===Webmaker Resources===
+In addition to the tools, there are resources to assist those educators and mentors who wish to teach the web. These Open Educational Resources (OERs) include complete [https://webmaker.org/teach Teaching Kits] as well as more granular resources to make it easier to teach web literacy. The customizability and modularity of the OERs are their major value. The OERs are created in the open, so the audience has direct communication with the content creators and a direct influence on the content itself. The learning materials can be both customized and personalized to suit the expertise of individual mentors. The customizability and modularity of OERs are their major value (Tseng & Piller, 2003). As one brief example, the [https://mozteach.makes.org/thimble/storycamp-resources StoryCamp] kit (codesigned with [http://www.bavc.org/ BAVC]) assists facilitators to empower youths wanting to tell their stories online. In the future, this kit could be remixed to empower young people to tell stories about collaboration, privacy or other web competency areas. Mozilla believes that the use of the Webmaker tools and teaching kits within an online training environment helps facilitate participatory cultures where there are “relatively low barriers to artistic expression and civic engagement, strong support for creating and sharing creations, and some type of informal mentorship” (Jenkins, et al., 2009, p. xi).
+
+===Webmaker Community===
+In order to use our Webmaker tools and resources effectively to spread our goal of teaching the world the web, Mozilla has an active and growing community. Individuals often join because of an interest to learn something specific covered by the Web Literacy (such as ‘remix’) that they want to apply in their daily lives, workplaces or communities.
+
+Our community members seek to:
+* '''level up''' their web literacy
+* '''build''' and '''share''' tools for teaching
+* '''gain''' peers and networks of practice
+* '''participate''' in coordinated actions
+* '''identify''' with a movement that's globally leveraged and locally contextualized
+
+In January 2013, Mozilla launched our first iteration of the Webmaker Community. We began testing strategies and programs to catalyze a global web literacy movement with local roots.  Teaming up with existing initiatives such as the Hive Learning Network and the Maker Party campaign, we formed a ‘big tent’ initiative inviting organisations to be part of a global movement. Through Hive Learning Networks, stewarded by Mozilla in New York, Chicago and Toronto, organizations were already incubating transformative learning experiences for youth, by applying the principles of connected learning. At the same time, we have given individuals an opportunity to join the Webmaker Community and act as ‘context localizers’ for our tools and resources. We use multiple channels for this including social media (Facebook, Google+, Twitter) and a weekly community call.
+
+We also offer a training for new mentors who want to learn the theory and practice of teaching the web. Through a blend of online and offline training modules, we continue to test, co-design and support our global community to improve their skills and to connect with one another. We empower ‘Super Mentors’ from the Webmaker community to train new mentors looking to learn the theory and practice of teaching the web. We test new tools, prototypes and resources through the training program, as well as recognise contribution through Webmaker badges. The array of Webmaker community building approaches assist us in our attempts to spread and scale contributions to Mozilla.
+
+==Conclusion==
+Mozilla’s mission is to keep the Internet open, accessible and editable. We put users first and believe that empowering people to tell their own story online is of the utmost important. To that end, through our Webmaker project we provide the tools, resources, and community for people to teach and learn the web. Underpinning this is the Web Literacy Map, co-created with stakeholders and the community.
+
+There is no single, simple way to keep the web as the platform. That is why Mozilla - a global non-profit - is working towards using an array of strategies to build the open web with partners and the community.
+
+The webmaker movement is made up of people who teach the web to others over the kitchen table; people who use Webmaker tools in more informal learning settings like community centers or youth groups; people who use Mozilla resources as part of a curriculum in schools and colleges; people who join Mozilla’s community, participating in the creation of open source projects and teaching resources. People like you.
+
+Mozilla Webmaker is ''your'' project. Be part of it.
+
+
+==Call To Action==
+There are many ways to get involved in Mozilla’s Webmaker project, from dipping your toe in the water for the first time through to running large events and helping us with future directions.
+* Create an account at [http://webmaker.org webmaker.org] and start making the web
+* Attend or host a [https://events.webmaker.org Maker Party]
+* Join the [https://lists.mozilla.org/listinfo/webmaker Webmaker mailing list]
+* Participate in one of the weeekly [https://wiki.mozilla.org/Webmaker/TeachTheWeb/Calls #TeachTheWeb community calls]
+* Follow [http://twitter.com/webmaker @webmaker] on Twitter and use the [https://twitter.com/search?q=%23teachtheweb&src=typd #teachtheweb] hashtag
+
+
+==Footnotes==
+[1] The Internet is a network of computer networks. The World Wide Web [‘web’] is a system of linked resources accessed via the Internet. These resources usually take the form of web pages that are, navigated with a web browser. Anybody with a connection to the internet can access the web and both read and write to it. It is the world’s largest humanly-created resource.
+
+[2] For example, the Knight-Mozilla [http://opennews.org/ OpenNews] partnership has created an ecosystem of journalists who not only use code to change the way they work, but interact and build on one another’s work using the affordances of web. Likewise, the newly-formed [http://mozillascience.org/ Mozilla Science Lab] focuses on the ways in which the science community can make the web work for science. Much of this involves ‘hard’ skills like building things with code, but there are many ‘softer’ skills involved, such as building community and working openly.
+
+==Bibliography==
+American Library Association. (2007). Standards for the 21st Century Learner. http://www.ala.org/aasl/sites/ala.org.aasl/files/content/guidelinesandstandards/learningstandards/AASL_Learning_Standards_2007.pdf
+
+Booth, D.R. (2012). Peer Participation and Software: What Mozilla Has to Teach Government. ''The John D. and Catherine T. MacArthur Foundation Reports on Digital Media and Learning.'' Cambridge, MA: The MIT Press. http://mitpress.mit.edu/sites/default/files/titles/free_download/9780262514613_Peer_Participation_and_Software.pdf
+
+boyd, d. & Hargittai, E. (2010). Facebook Privacy Settings: Who Cares? First Monday 15(8).
+http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/3086/2589.
+
+Buckingham, D. (2003). ''Media Education: Literacy, Learning & Contemporary Culture.'' Cambridge: Polity Press.
+
+Coiro, J., Knobel, M., Lankshear, C. & Leu, D. J. eds. (2008). ''Handbook of research on new literacies.'' Philadelphia: Erlbaum.
+
+Castells, Manuel. (2012). ''Networks of outrage and hope: Social movements in the Internet age.'' Cambridge: Polity Press.
+
+Connected Learning Principles. (no date).Connected Learning. http://connectedlearning.tv/connected-learning-principles
+
+Davidson, C.N. & Goldberg, D.T. (2010). The Future of Thinking: Learning Institutions in a Digital Age. ''The John D. and Catherine T. MacArthur Foundation Reports on Digital Media and Learning.'' Cambridge, MA: The MIT Press. http://mitpress.mit.edu/sites/default/files/titles/free_download/9780262513746_Future_of_Thinking.pdf
+
+Davidson, C.N. (2012). Why We Need a 4th R: Reading, wRiting, aRithmetic, algoRithms. DMLcentral. http://dmlcentral.net/blog/cathy-davidson/why-we-need-4th-r-reading-writing-arithmetic-algorithms
+
+Davidson, C.N. (2011). ''Now you see it: how the brain science of attention will transform the way we live, work, and learn.'' New York: Viking.
+
+Gee, J. P. (2009). Digital Media and Learning as an Emerging Field, Part I: How We Got Here. ''International Journal of Learning and Media'', 1(2), 13–23.
+
+Ito, M., et al. (2009). Living and Learning with New Media: Summary of Findings from the Digital Youth Project. ''The John D. and Catherine T. MacArthur Foundation Reports on Digital Media and Learning.'' Cambridge, MA: The MIT Press. http://mitpress.mit.edu/sites/default/files/titles/free_download/9780262513654_Living_and_Learning.pdf
+
+Ito, M., et al. (2013). Connected Learning: An Agenda for Research and Design. Digital Media and Learning Research Hub. http://dmlhub.net/publications/connected-learning-agenda-research-and-design
+
+Jenkins, Henry & Thorburn, David (eds). (2003). ''Democracy and new media.'' Cambridge, Mass.: MIT Press.
+
+Jenkins, H., et al. (2009). Confronting the Challenges of Participatory Culture: Media Education for the 21st Century. ''The John D. and Catherine T. MacArthur Foundation Reports on Digital Media and Learning.'' Cambridge, MA: The MIT Press. http://mitpress.mit.edu/sites/default/files/titles/free_download/9780262513623_Confronting_the_Challenges.pdf
+
+Lessig, L. (1999). ''Code and Other Laws of Cyberspace.'' New York: Basic Books.
+
+MacKinnon, Rebecca. (2012). ''Consent of the networked: The world-wide struggle for Internet freedom.'' New York: Basic Books.
+
+Mozilla.  Webmaker/Hive.  https://wiki.mozilla.org/Webmaker/Hive
+
+Mozilla Hive New York.  Hive Learning Networks.  http://hivenyc.org/about-hive-nyc/hive-global/
+
+New London Group. (1996). A pedagogy of multiliteracies: Designing social futures. ''Harvard Education Review'' 66(1), 60–92.
+
+Papert, S. (1980). ''Mindstorms: Children, Computers, and Powerful Ideas.'' New York: Basic Books.
+
+Porter, M.E. (1980). ''Competitive Strategy.'' New York, Simon and Schuster.
+
+Rheingold, H. (2012). ''Net Smart: How to Thrive Online.'' Cambridge, MA: MIT Press.
+
+Rushkoff, D. (2011). ''Program or Be Programmed: Ten Commands for a Digital Age.'' New York: O/R Books.
+
+Salen, K., et al. (2010). Quest to Learn: Developing the School for Digital Kids. ''The John D. and Catherine T. MacArthur Foundation Reports on Digital Media and Learning.'' Cambridge, MA: The MIT Press. http://mitpress.mit.edu/sites/default/files/titles/free_download/9780262515658_Quest_to_Learn.pdf
+
+Santo, R. (2012). Hacker Literacies: Synthesizing Critical and Participatory Media Literacy Frameworks. ''International Journal of Learning and Media.'' 3(3), pp.1-5.
+
+Tseng, M., & Piller, F. (2003). ''The customer centric enterprise: advances in mass customization and personalization.'' New York: Springer
+
+Udell, J. (2011) ‘Seven Ways to Think Like the Web’, Weblog, http://blog.jonudell.net/2011/01/24/seven-ways-to-think-like-the-web/
+
+Wing, J.M. (2008). Computational Thinking and Thinking about Thinking. Philosophical Transactions of The Royal Society. 366. pp.3717-3725.
