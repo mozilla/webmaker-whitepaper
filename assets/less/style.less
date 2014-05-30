@@ -7,17 +7,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('https://farm6.staticflickr.com/5503/10513597226_9c0fae8610_b_d.jpg');
-}
-
-.navbar.navbar-no-header-md {
-  @media (max-width: @screen-md-min) {
-    border: none;
-    min-height: 0;
-    .navbar-header {
-      display: none;
-    }
-  }
+  background-image: url('../img/header.jpg');
 }
 
 .navbar-webmaker {
@@ -51,27 +41,73 @@ body {
   }
 }
 
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
 .jumbotron {
-  margin-bottom: 0;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   text-align: center;
   background: transparent;
 
   .title {
-    background: fade(@brand-primary, 60%);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    color: @grey;
+    padding: 0;
   }
 }
 
 main {
-  padding-bottom: 3rem;
+  margin-top: 40rem;
   background: @white;
+
+  h2 {
+    margin-top: 4rem;
+  }
+
+  p {
+    line-height: 1.8;
+  }
+
+  .well {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    background-color: @lightgrey;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+    font-size: 12px;
+
+    h2 {
+      font-size: 1.8em;
+    }
+  }
 }
 
-footer {
+#webmaker-mentors, #weblitmap {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+footer.wm-footer {
   .footer-links ul {
     list-style: none;
   }
+
+  background: @brand-secondary;
 }
 
 // know more, do more, do better hexagons
@@ -142,9 +178,9 @@ footer {
   }
 
   // colors!
-  @hex-blue: #0E79C8;
+  @hex-blue: @brand-secondary;
   @hex-white: @lightgrey;
-  @hex-yellow: #D6EC09;
+  @hex-yellow: @darkyellow;
   &.white {
     background: @hex-white;
     border-color: @hex-white;
@@ -179,8 +215,23 @@ footer {
 // webmaker tools
 
 #webmaker-tools-descriptions {
-  .col-sm-6 > img:first-child {
-    max-height: 4em;
-    margin-left: 0.4em;
+  .col-sm-6 {
+
+    & > img:first-child {
+      max-height: 4em;
+      margin: 1rem auto;
+      display: block;
+    }
+
+    & > h4, & > a {
+      text-align: center;
+      display: block;
+      margin: auto;
+    }
+
+    & > a {
+      margin-bottom: 1rem;
+    }
   }
+
 }
