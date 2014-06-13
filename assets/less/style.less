@@ -11,6 +11,7 @@ body {
 }
 
 .navbar-webmaker {
+  position: relative;
   margin-bottom: 0;
 
   .webmaker-logo {
@@ -93,6 +94,7 @@ main {
     padding-bottom: 4rem;
     margin-bottom: 0;
     font-size: 12px;
+    z-index: 2;
 
     h2 {
       font-size: 1.8em;
@@ -111,6 +113,7 @@ footer.wm-footer {
   }
 
   background: @brand-secondary;
+  z-index: 2;
 }
 
 // know more, do more, do better hexagons
@@ -227,4 +230,54 @@ footer.wm-footer {
     }
   }
 
+}
+
+// page menu
+#page-menu {
+  margin-top: 40px;
+  line-height: 1.8;
+  font-size: 1.6rem;
+  z-index: 1;
+
+  &.affix {
+    position: fixed;
+    top: 0px;
+  }
+  &.affix-top {
+    position: absolute;
+  }
+  &.affix-bottom {
+    position: absolute;
+  }
+
+  li {
+    background: none;
+    transition: opacity 0.3s ease 0s;
+    opacity: 0.5;
+
+    &:hover,
+    &.active {
+      opacity: 1;
+      background: none;
+
+      & > a,
+      & > a:focus,
+      & > a:hover,
+      & > a:active,
+      & > a:visited {
+        background: none;
+      }
+    }
+  }
+}
+
+// tabzilla hacks
+#tabzilla-panel.tabzilla-closed.open {
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+#tabzilla {
+  background: url(/assets/img/tab.png) no-repeat scroll left top / 150px auto transparent;
+  position: absolute;
+  top: -12px;
+  right: 5px;
 }
