@@ -1,6 +1,8 @@
 # Webmaker Whitepaper -- Readme
 
-**This is *NOT* the final, nor official, version of the [Webmaker Whitepaper](https://wiki.mozilla.org/Webmaker/Whitepaper) which can be found over at [wiki.mozilla.org/Webmaker/Whitepaper](https://wiki.mozilla.org/Webmaker/Whitepaper)**
+## Authorship
+
+See <https://wiki.mozilla.org/Webmaker/Whitepaper> for more information.
 
 ## Development
 
