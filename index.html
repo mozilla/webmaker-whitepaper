@@ -121,9 +121,7 @@
 
             <p class="text-center" id="weblitmap">
               <a href="https://webmaker.org/resources">
-                <noscript>
-                  <img src="assets/img/weblitmap-1.1.png" alt="Mozilla Web Literacy Map competency grid" class="img-responsive">
-                </noscript>
+                <img src="assets/img/weblitmap-1.1.svg" onerror="this.src='assets/img/weblitmap-1.1.png'" alt="Mozilla Web Literacy Map competency grid" class="img-responsive">
               </a>
             </p>
 
@@ -462,20 +460,6 @@
       }, 700 );
 
       return false;
-    });
-
-    // use svg in pace of png weblit map if possible
-    $.ajax({
-      url: 'assets/img/weblitmap-1.1.svg',
-      type: 'GET',
-      crossDomain: true,
-      dataType: 'html',
-      success: function( svg ) {
-        $( '#weblitmap a').html( svg );
-      },
-      error: function() {
-        $( '#weblitmap a').html( $( '#weblitmap a noscript' ).html() );
-      }
     });
   </script>
 </body>
