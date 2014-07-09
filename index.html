@@ -121,7 +121,7 @@
 
             <p class="text-center" id="weblitmap">
               <a href="https://webmaker.org/resources">
-                <img src="assets/img/weblitmap-1.1.png" alt="Mozilla Web Literacy Map competency grid" class="img-responsive">
+                <img src="assets/img/weblitmap-1.1.svg" onerror="this.src='assets/img/weblitmap-1.1.png'" alt="Mozilla Web Literacy Map competency grid" class="img-responsive">
               </a>
             </p>
 
@@ -441,7 +441,10 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <script>
+    // Disable tabzilla easteregg
     Tabzilla.disableEasterEgg();
+
+    // fix the page menu position when scrolling
     $( '#page-menu' ).affix({
       offset: {
         top: $( '#page-menu' ).offset().top,
@@ -449,6 +452,8 @@
       }
     });
 
+    // scroll to internal links rather than jump
+    // (external links are not affected by this)
     $( 'a' ).on( 'click', function() {
       $( 'html, body' ).animate({
         scrollTop: $( $.attr( this, 'href' ) ).offset().top
